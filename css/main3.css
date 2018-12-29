@@ -1,0 +1,24 @@
+
+
+::-webkit-scrollbar{
+    width: 5px;
+    background: #ddd;
+}
+ 
+::-webkit-scrollbar-thumb {
+    background: #444;
+    cursor: pointer;
+}
+ 
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(150,150,150,0.8);
+    cursor: pointer;}
+
+table{
+	border: 0px;
+}
+
+tr,td{
+	border: 1px solid;
+	border-color: blue;
+}

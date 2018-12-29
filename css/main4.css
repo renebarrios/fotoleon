@@ -1,0 +1,55 @@
+body,html{
+	margin: 0 !important;
+	border: 0 !important;
+	padding:0 !important;
+
+}
+
+
+.all-screen{
+	position: fixed;
+	width: 100vw;
+	height: 100%;
+	padding: 0;
+	border: 0;
+	margin: 0;
+	border: 0;
+
+}
+
+
+.menu-option{
+	display: inline-block;
+	margin-left: 9%;
+	width: 8.5%;
+
+
+
+}
+
+
+.menu-option img{
+	width: 100%;
+	height: 100%;
+}
+.content{
+	position: fixed;
+	border:0;
+	width: 100%;
+	height: 91%;
+}
+
+.content iframe{
+	width: 100%;
+	height: 100%;
+	border: 0;
+}
+.bar-menu{
+	border:0;
+    padding-left: 1%;
+	width: 100%;
+	height: 10%;
+	position: fixed;
+	margin-top: 93vh;
+
+}

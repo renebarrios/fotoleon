@@ -1,0 +1,129 @@
+
+body,html{
+	padding: 0;
+	margin: 0;
+	zoom:150%;
+}
+
+
+
+.all-screen{
+	width: 100%;
+	height: 100%;
+    padding: 0;
+    margin: 0;
+	border: 0;
+	position: fixed;
+
+}
+
+.panel{
+	border: 0;
+	margin: 0;
+	width: 22%;
+	height: 100%;
+	display: inline-block;
+	zoom:50%;
+}
+
+.content{
+	margin: 0;
+	border: 0 ;
+	width: 78%;
+	height: 100%;
+	display: inline-block;
+	position: fixed;
+	background-color: rgb(241,243,244);
+}
+
+.logo{
+	width: 24%;
+	margin-top: 2%;
+	margin-left: 2%;
+	position: fixed;
+}
+
+#logo{
+	width: 55%;
+	height:auto;
+	 transform:scale(1.2);
+        -webkit-transition: all 500ms ease-in-out; // IE 9
+        -moz-transition: all 500ms ease-in-out; // Firefox
+        -ms-transition: all 500ms ease-in-out; // Safari and Chrome 
+        -o-transition: all 500ms ease-in-out; // Opera       
+}
+
+
+#logo:hover{
+	 transform:scale(1);
+            -ms-transform:scale(1); // IE 9 
+            -moz-transform:scale(1); // Firefox 
+            -webkit-transform:scale(1); // Safari and Chrome 
+            -o-transform:scale(1); // Opera
+}
+
+.opcion{
+	display: inline-block;
+	width: 100%;
+	border: 0px solid green;
+	height: 5%;
+	margin-top: 4%;
+	padding-left: 10%;
+	 -webkit-transition: all 500ms ease-in-out; // IE 9
+        -moz-transition: all 500ms ease-in-out; // Firefox
+        -ms-transition: all 500ms ease-in-out; // Safari and Chrome 
+        -o-transition: all 500ms ease-in-out; // Opera       
+
+	
+}
+
+#opcion1{
+	margin-top: 28vh;
+}
+
+.icon-opt{
+	width: 10%;
+	
+
+
+}
+p{
+	display: inline-block;
+	margin-left: 5%;
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 62%;
+	
+}
+
+
+.option-text:hover{
+
+  
+  cursor: pointer;
+
+   transform:scale(1);
+            -ms-transform:scale(1); // IE 9 
+            -moz-transform:scale(1); // Firefox 
+            -webkit-transform:scale(1); // Safari and Chrome 
+            -o-transform:scale(1); // Opera
+
+}
+
+.contenido{
+	width: 100%;
+	height:100%;
+	border: none;
+	margin: none;
+}
+
+a{
+	outline-style: none;
+	outline-color: none;
+	outline-offset: none;
+	font-style: none;
+	color: black;
+}
+
+a:hover{
+	color: black;
+}

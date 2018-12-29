@@ -1,0 +1,110 @@
+body,html{
+	padding: none;
+	margin: none;
+	border :none;
+}
+
+::-webkit-scrollbar{
+    width: 5px;
+    background: #ddd;
+}
+ 
+::-webkit-scrollbar-thumb {
+    background: #444;
+    cursor: pointer;
+}
+ 
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(150,150,150,0.8);
+    cursor: pointer;}
+
+#contador{
+	display: none;
+}
+
+#btn{
+
+	position: absolute;
+	background-color: ;
+	margin-left:1%;
+	z-index: 2;
+	margin-top: 2%;
+	border-radius: 10px 10px 10px 10px;
+   -moz-border-radius: 10px 10px 10px 10px;
+   -webkit-border-radius: 10px 10px 10px 10px;
+  border: none;
+    border-style: none;
+	text-decoration-style: none;
+	  overflow: hidden;
+	  color: none;
+	  outline-style: none;
+	  text-align: center;
+	  	padding:1%;
+	  	font-family: 'Roboto', sans-serif;
+	font-size: 80%;
+}
+
+#btn:hover{
+	background-color: rgb(46,204,113);
+	color: white;
+}
+
+.enviar{
+	margin-left: 25%;
+	position: absolute;
+
+
+}
+
+
+.enviar:hover{
+	background-color: rgb(52,152,219);
+	color: white;
+}
+
+option,select,input{
+	font-family: 'Roboto', sans-serif;
+	font-size: 75%;
+	margin-left: 1%;
+	margin-top: 1%;
+	padding:1%;
+	border-radius: 10px 10px 10px 10px;
+   -moz-border-radius: 10px 10px 10px 10px;
+   -webkit-border-radius: 10px 10px 10px 10px;
+    border: none;
+    border-style: none;
+	text-decoration-style: none;
+	  overflow: hidden;
+	  color: none;
+	  outline-style: none;
+	  text-align: center;
+	  margin-top: 2%;
+}
+
+
+
+.s1{
+		margin-left: 0.1% !important;
+
+	}
+
+
+#lmodelo{
+	margin-left: 2%;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+#ltamano{
+	margin-left: 4%;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+#lcolor{
+	margin-left: 8%;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+#lcantidad{
+	margin-left: 13%;
+	font-family: 'Roboto Condensed', sans-serif;
+}
