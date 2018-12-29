@@ -1,0 +1,75 @@
+
+::-webkit-scrollbar{
+    width: 5px;
+    background: #ddd;
+}
+ 
+::-webkit-scrollbar-thumb {
+    background: #444;
+    cursor: pointer;
+}
+ 
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(150,150,150,0.8);
+    cursor: pointer;}
+
+table{
+	border: 0px;
+	margin-left: 2%;
+}
+
+tr,td{
+	border: none;
+	padding-left:  1%;
+	padding-top:.5%;
+	padding-bottom: .5%; 
+	font-size: 80%;	
+	text-align: center;
+	border-spacing: none;
+	empty-cells: all;
+	font-family: 'Roboto Condensed', sans-serif;
+	border-collapse: collapse;
+
+}
+
+td{
+
+}
+
+
+
+.titulo{
+	font-family: 'Roboto Condensed', sans-serif;
+	color: black !important;
+	background-color: white !important;
+
+}
+
+#color{
+	width: 14%;
+	text-align: center;
+}
+
+#modelo{
+	width: 16%;
+	text-align: center;
+}
+#tamano{
+	width: 20%;
+}
+#estado{
+	width: 14%;
+}
+
+
+.a{
+	background-color: rgb(55,71,79);
+	color: white;
+}
+
+.b{
+	background-color: rgb(120,144,156);
+	color: black;
+
+}
+
