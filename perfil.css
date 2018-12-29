@@ -1,0 +1,99 @@
+body, html{
+	padding: 0;
+	margin: 0;
+	background-color: white;
+}
+
+
+.all-screen-perfil{
+	position: fixed;
+  }
+
+.top-title{
+	width: 100vw;
+	font-size: 260%;
+	font-family: 'Raleway', sans-serif;
+    box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.2);
+    padding: 0.1%;
+}
+
+.descript p{
+ font-size: 250%;
+ font-family: 'Roboto', sans-serif;
+ padding-bottom: 1%;
+}
+
+.avatar{
+	width: 30%;
+	margin-top: 6%;
+	border-radius: 200px 200px 200px 200px;
+	-moz-border-radius: 200px 200px 200px 200px;
+	-webkit-border-radius: 200px 200px 200px 200px;
+	border: 0px solid #000000;
+}
+
+.p-c{
+	padding-top: 3vh;
+
+}
+
+.name-2{
+	text-align: center;
+	font-size: 280%;
+    font-family: 'Niramit', sans-serif;
+	padding: .5%;
+	text-decoration-line: none;
+	text-decoration-color: none;
+	text-decoration-style: none;
+	box-decoration-break: none;
+	border:none;
+	box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.1);
+
+}
+
+
+.e-mail{
+	width: auto;
+	text-align: center;	
+	font-size: 280%;
+    font-family: 'Niramit', sans-serif;
+	padding: .5%;
+	padding-left: 2%;
+	padding-right: 2%;
+	text-decoration-line: none;
+	text-decoration-color: none;
+	text-decoration-style: none;
+	box-decoration-break: none;
+	border:none;
+	box-shadow: 0px 9px 20px 0px rgba(0,0,0,0.1);
+   
+}
+
+.birthdate{
+	text-align: center;
+	font-size: 280%;
+	padding: .5%;
+    font-family: 'Niramit', sans-serif;
+	text-decoration-line: none;
+	text-decoration-color: none;
+	text-decoration-style: none;
+	box-decoration-break: none;
+	border:none;
+	box-shadow: 0px 9px 20px 0px rgba(0,0,0,0.1);
+
+}
+
+.cell-phone{
+	text-align: center;
+	font-size: 280%;
+    font-family: 'Niramit', sans-serif;
+	padding: .5%;
+	text-decoration-line: none;
+	text-decoration-color: none;
+	text-decoration-style: none;
+	box-decoration-break: none;
+	border:none;
+	box-shadow: 0px 9px 20px 0px rgba(0,0,0,0.1);
+ 	
+}
+
