@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/main2.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Roboto+Condensed|Roboto:300,300i" rel="stylesheet">
+</head>
+<body>
+<form action="conexion2.php" method="POST">
+	<div id="contenido">
+	<label id="lmodelo">Modelo</label>
+	<label id="ltamano">Tamaño</label>
+	<label id="lcolor">Color</label>
+	<label id="lcantidad">Cantidad</label>
+
+
+		<div>
+		<select name="modelo[]" >
+		  <option value="1">Atenas</option>
+		  <option value="2">Asmara</option>
+		  <option value="3">Columbia</option>
+		  <option value="4">Deli</option>
+		  <option value="5">Lisboa</option>
+		  <option value="6">Othawa</option>
+		  <option value="7">Paris</option>
+		  <option value="8">Sucre</option>
+		  <option value="9">Teran</option>
+		  <option value="10">Tokio</option>
+		  <option value="11">Tunes</option>
+		  <option value="12">Wanda</option>
+
+
+
+
+
+
+
+		</select>
+
+
+		
+		<select name="tamano[]" class="s1">
+		  <option value="1">Panoramico doble</option>
+		  <option value="2">Panoramico</option>
+		  <option value="3">Mediano</option>
+		  <option value="4">Chico</option>
+		</select>
+
+
+	
+		<select name="color[]" class="s1">
+		  <option value="1">Negro</option>
+		  <option value="2">Chocolate</option>
+		  <option value="3">Marron</option>
+		  <option value="4">Vino</option>
+		</select>
+
+		<input type="text" name="cantidad[]" class="s1">
+	</div>
+	
+	</div>
+<input type="text" id="contador" name="contador" value="0"  readonly="readonly">
+
+
+<input type="submit" value="Confirmar pedido" class="enviar">
+
+</form>
+<button id="btn" >Agregar contenido</button>
+
+	<script>
+		$("#btn").addEventListener("click",function(){
+
+            var  x=parseInt(document.getElementById("contador").value);
+            
+            var  y = document.getElementById("contador").value ;
+            var  z ="modelo";
+            var  z1 ="tamano";
+            var  z2 ="color";
+            var  z3 ="cantidad";
+
+
+            var res= z.concat(y);
+            var res2= z1.concat(y);
+            var res3= z2.concat(y);
+            var res4= z3.concat(y);
+
+            var cuadro ="div";
+            var cuadro2 = cuadro.concat(y);
+
+            var div1=document.createElement("div");
+			div1.setAttribute("name","opcion");
+			div1.setAttribute("id", cuadro2 );
+            
+            $("#contenido").appendChild(div1);
+			
+			//insertando modelos
+			var select1=document.createElement("SELECT");
+			select1.setAttribute("name","modelo[]");
+			select1.setAttribute("id", res );
+
+			$("#"+cuadro2).appendChild(select1);
+			
+			var option1m=document.createElement("option");
+			option1m.setAttribute("value","1");
+		    var t1m=document.createTextNode("Atenas");
+            option1m.appendChild(t1m);
+
+            $("#"+res).appendChild(option1m);
+
+            var option2m=document.createElement("option");
+            option2m.setAttribute("value","2");
+		    var t2m=document.createTextNode("Asmara");
+            option2m.appendChild(t2m);
+
+            $("#"+res).appendChild(option2m);
+
+            var option3m=document.createElement("option");
+            option3m.setAttribute("value","3");
+		    var t3m=document.createTextNode("Columbia");
+            option3m.appendChild(t3m);
+
+            $("#"+res).appendChild(option3m);
+
+            var option4m=document.createElement("option");
+            option4m.setAttribute("value","4");
+		    var t4m=document.createTextNode("Deli");
+            option4m.appendChild(t4m);
+
+            $("#"+res).appendChild(option4m);
+
+            var option5m=document.createElement("option");
+            option5m.setAttribute("value","5");
+		    var t5m=document.createTextNode("Lisboa");
+            option5m.appendChild(t5m);
+
+            $("#"+res).appendChild(option5m);
+
+            var option6m=document.createElement("option");
+            option6m.setAttribute("value","6");
+		    var t6m=document.createTextNode("Othawa");
+            option6m.appendChild(t6m);
+
+            $("#"+res).appendChild(option6m);
+
+            var option7m=document.createElement("option");
+            option7m.setAttribute("value","7");
+		    var t7m=document.createTextNode("Paris");
+            option7m.appendChild(t7m);
+
+            $("#"+res).appendChild(option7m);
+
+            var option8m=document.createElement("option");
+            option8m.setAttribute("value","8");
+		    var t8m=document.createTextNode("Sucre");
+            option8m.appendChild(t8m);
+
+            $("#"+res).appendChild(option8m);
+
+            var option9m=document.createElement("option");
+            option9m.setAttribute("value","9");
+		    var t9m=document.createTextNode("Teran");
+            option9m.appendChild(t9m);
+
+            $("#"+res).appendChild(option9m);
+
+            var option10m=document.createElement("option");
+            option10m.setAttribute("value","10");
+		    var t10m=document.createTextNode("Tokio");
+            option10m.appendChild(t10m);
+
+            $("#"+res).appendChild(option10m);
+
+            var option11m=document.createElement("option");
+            option11m.setAttribute("value","11");
+		    var t11m=document.createTextNode("Tunes");
+            option11m.appendChild(t11m);
+
+            $("#"+res).appendChild(option11m);
+            
+            var option12m=document.createElement("option");
+            option12m.setAttribute("value","12");
+		    var t12m=document.createTextNode("Wanda");
+            option12m.appendChild(t12m);
+
+            $("#"+res).appendChild(option12m);
+            
+            
+
+
+
+            //insertando tamano
+
+            var select2=document.createElement("SELECT");
+			select2.setAttribute("name","tamano[]");
+			select2.setAttribute("id", res2 );
+
+			$("#"+cuadro2).appendChild(select2);
+			
+			var option1t=document.createElement("option");
+			option1t.setAttribute("value","1");
+		    var t1t=document.createTextNode("Panoramico doble");
+            option1t.appendChild(t1t);
+
+            $("#"+res2).appendChild(option1t);
+
+            var option2t=document.createElement("option");
+            option2t.setAttribute("value","2");
+		    var t2t=document.createTextNode("Panoramico");
+            option2t.appendChild(t2t);
+
+            $("#"+res2).appendChild(option2t);
+
+            var option3t=document.createElement("option");
+            option3t.setAttribute("value","3");
+		    var t3t=document.createTextNode("Mediano");
+            option3t.appendChild(t3t);
+
+            $("#"+res2).appendChild(option3t);
+
+            var option4t=document.createElement("option");
+            option4t.setAttribute("value","4");
+		    var t4t=document.createTextNode("Chico");
+            option4t.appendChild(t4t);
+
+            $("#"+res2).appendChild(option4t);
+
+                //insertando color
+
+            var select3=document.createElement("SELECT");
+			select3.setAttribute("name","color[]");
+			select3.setAttribute("id", res3 );
+
+			$("#"+cuadro2).appendChild(select3);
+			
+			var option1c=document.createElement("option");
+			option1c.setAttribute("value","1");
+		    var t1c=document.createTextNode("Negro");
+            option1c.appendChild(t1c);
+
+            $("#"+res3).appendChild(option1c);
+
+            var option2c=document.createElement("option");
+            option2c.setAttribute("value","2");
+		    var t2c=document.createTextNode("Chocolate");
+            option2c.appendChild(t2c);
+
+            $("#"+res3).appendChild(option2c);
+
+            var option3c=document.createElement("option");
+            option3c.setAttribute("value","3");
+		    var t3c=document.createTextNode("Marron");
+            option3c.appendChild(t3c);
+
+            $("#"+res3).appendChild(option3c);
+
+            var option4c=document.createElement("option");
+            option4c.setAttribute("value","4");
+		    var t4c=document.createTextNode("Vino");
+            option4c.appendChild(t4c);
+
+            $("#"+res3).appendChild(option4c);
+
+   //insertando color
+
+            var inputcantidad=document.createElement("input");
+			inputcantidad.setAttribute("name","cantidad[]");
+			inputcantidad.setAttribute("id", res4 );
+			inputcantidad.setAttribute("type", "text" );
+
+
+			$("#"+cuadro2).appendChild(inputcantidad);
+			
+		
+
+			document.getElementById("contador").value = x+1 ;
+			document.getElementById("textopre").value = res ;
+
+		
+
+
+		
+	
+
+		})
+
+		function $(selector){
+			return document.querySelector(selector);
+		}
+	</script>
+  <br><br><br><br>
+</body>
+</html>
